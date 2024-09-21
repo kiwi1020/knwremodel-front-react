@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+![KNU](https://github.com/user-attachments/assets/f9f3cad1-b7d8-4fd4-b68b-39c797f7f89b)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# KNU REPLICA
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 프로젝트 개요
+**KNU REPLICA**는 기존의 학교 홈페이지를 새롭게 리뉴얼하는 프로젝트로, 4개월 동안 3명의 프론트엔드 개발자와 3명의 백엔드 개발자가 협력하여 진행했습니다. 이 프로젝트의 목표는 학생들에게 맞춤형 정보를 제공하고, 가시성이 높은 디자인을 통해 사용자 경험을 향상시키며, 개인화된 홈 페이지를 제공함으로써 프로그램 동기 부여를 지원하는 것입니다.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 팀 구성
+- **프론트엔드**: 강민주, 강명균, 이인재
+- **백엔드**: 서동현, 서은빈, 유우열
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### 프로젝트 목표
+1. **학생 중심 정보 제공**: 학생들이 필요로 하는 정보를 직관적으로 접근할 수 있도록 재구성.
+2. **가시성 높은 디자인**: 사용자 경험을 극대화하기 위한 직관적이고 심미적인 UI/UX 디자인.
+3. **동기 부여와 개인화**: 사용자 맞춤형 기능과 개인화된 홈페이지로 학업과 활동을 지원하는 플랫폼 제공.
+4. **실시간 인기 게시글**: 좋아요와 댓글 기능을 통해 실시간으로 인기 게시글을 파악할 수 있는 시스템 구현.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 주요 기능
+- **사용자 맞춤 정보 제공**: 학생 개개인에게 필요한 정보를 필터링하여 맞춤형으로 제공.
+  
+- **직관적인 UI/UX 디자인**: 사용자 친화적인 인터페이스를 통해 쉽게 접근할 수 있는 경험 제공.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Instagram과 유사한 좋아요 및 댓글 기능**: 게시글에 좋아요와 댓글을 남길 수 있으며, 이를 통해 실시간 인기 게시글을 손쉽게 확인 가능.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **학교 홈페이지 데이터 크롤링**: 기존 학교 홈페이지의 데이터를 크롤링하여 재분류 후 학생들에게 제공.
+  
+- **실시간 검색어 순위**: 현재 인기 있는 검색어를 실시간으로 보여줌.
+  
+- **학생 프로필 기반 게시물 추천**: 개인화된 경험을 위해 학생의 프로필 데이터에 따라 맞춤형 게시물 추천.
+  
+- **자동 업데이트 기능**: 일정 주기로 기존 학교 홈페이지의 새로운 게시물을 자동으로 업데이트하여 항상 최신 정보를 제공.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 개발 환경
+- **프론트엔드**: React
+- **백엔드**: Spring Boot
+- **데이터베이스**: MySQL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 팀 협업 및 개발 방식
+- **협업 도구**: Notion을 통해 협업 진행. 프로젝트의 모든 문서와 진행 상황을 한 곳에서 관리.
+  - [Notion 페이지](https://www.notion.so/ub775/e730203822d14b9c88f6c1cece7b3128?pvs=4)
+- **애자일 방법론**: 애자일 방법론을 기반으로 스크럼 방식을 적용.
+  - 3차 스프린트 진행
+  - 일일 스크럼 회의
+  - 스프린트 백로그, 제품 백로그 관리
+  - 스프린트 회고를 통한 개선 사항 도출
